@@ -1,0 +1,9 @@
+fhand = open("../Data/mbox-short.txt")
+
+for line in fhand:
+    line.strip()
+    wds = line.split()
+    # Guardian in a compound statement
+    if len(wds) < 3 or wds[0] != "From":
+        continue
+    print(wds[2])
