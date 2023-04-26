@@ -14,7 +14,7 @@ usr_input = input("Enter a score between 0.0 and 1.0: ")
 try:
     score = float(usr_input)
 except:
-    print("plese enter number")
+    print("please enter number")
     quit()
 if score >=0.0 and score <=1.0:
     if score>=0.9:
@@ -28,5 +28,5 @@ if score >=0.0 and score <=1.0:
     else:
         print("F")
 else:
-    print("plese enter number between 0.0 and 1.0")
+    print("please enter number between 0.0 and 1.0")
     quit()

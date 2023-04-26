@@ -2,7 +2,7 @@
 
 ## Building our Own Functions
 
-- We createa new function using the def keyword followed by optional<br>
+- We create new function using the def keyword followed by optional<br>
   parameters in parentheses
 - We indent the body of the function
 - This <span style="color:#f6fc2d">defines </span> the function but <span style="color:#ed971f">does not</span> execute the body of the function
@@ -21,9 +21,9 @@ print("Hello")
 #define the function
 def print_lyrics():
     print("I'm a lumberjack, and I'm okay.")
-    print("I sleep all night and I work alll day.")
+    print("I sleep all night and I work all day.")
 print("Yo")
-# the function never got colled
+# the function never got called
 x = x + 2
 print(x)
 ```
@@ -48,7 +48,7 @@ print("Hello")
 #define the function
 def print_lyrics():
     print("I'm a lumberjack, and I'm okay.")
-    print("I sleep all night and I work alll day.")
+    print("I sleep all night and I work all day.")
 print("Yo")
 #invoking the function
 print_lyrics()
@@ -63,7 +63,7 @@ print(x)
 Hello
 Yo
 I'm a lumberjack, and I'm okay.
-I sleep all night and I work alll day.
+I sleep all night and I work all day.
 7
 ```
 
@@ -124,7 +124,7 @@ Total is 60
 ## <span style="color:#">Return Values</span>
 
 Often a function will take its arguments, do some computation, and<br>
-<span style="color:#ed971f">retrun</span> a value to be used as the value of the function call in the <br>
+<span style="color:#ed971f">return</span> a value to be used as the value of the function call in the <br>
 <span style="color:#ae1fd1">calling expression</span>. The <span style="color:#ed971f">return</span> keyword is used for this.
 
 - A "fruitful" <span style="color: #94ed1f"> function </span>is one that produces a <span style="color:#ae1fd1"> result</span> (or <span style="color:#f6fc2d">return</span> <span style="color:#ae1fd1">value</span>)

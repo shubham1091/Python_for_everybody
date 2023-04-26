@@ -1,10 +1,10 @@
 # <span style="color:#f6fc2d">String data Type</span>
 
-- <span style="color:#ae1fd1">A string is a swquence of characters</span>
+- <span style="color:#ae1fd1">A string is a sequence of characters</span>
 - <span style="color:#ae1fd1">A string literal uses quotes<br>
   'Hello' or "Hello"</span>
 - <span style="color: #94ed1f">For strings, + means "concatenate"</span>
-- <span style="color:#ed971f">When a tring contains numbers, it is<br>
+- <span style="color:#ed971f">When a string contains numbers, it is<br>
   still a string</span>
 - <span style="color:#34ebd2">We can convert numbers in a string into<br>
   a number using</span> <span style="color:#ae1fd1">int</span><span style="color:#34ebd2">()</span>
@@ -63,9 +63,9 @@ n
 
 ## <span style="color:#f6fc2d">A Character Too Far</span>
 
-- You wiil get a <span style="color:#b5473f">python error</span><br>
+- You will get a <span style="color:#b5473f">python error</span><br>
   if you attempt to index <br>
-  beyound the end of a string
+  beyond the end of a string
 - So be careful when <br>
   constructing index values<br>
   and slices
@@ -133,7 +133,7 @@ while index < len(fruit):
 </tr>
 </table>
 
-- A definite loop using a <span style="color:#f6fc2d">for</span> statementis much<br>
+- A definite loop using a <span style="color:#f6fc2d">for</span> statement is much<br>
   more elegant
 - The <span style="color: #94ed1f">iteration variable</span> is completely taken care<br>
   of by the <span style="color:#f6fc2d">for</span> loop
@@ -202,7 +202,7 @@ Monty Python
 
 # <span style="color:#f6fc2d">Manipulating Strings</span>
 
-## <span style="color:#f6fc2d">String Cocatenation</span>
+## <span style="color:#f6fc2d">String Concatenation</span>
 
 When the <span style="color:#34ebd2">+</span> operator is applied to string, it means <span style="color:#34ebd2">"concatenation"</span>
 
@@ -217,7 +217,7 @@ Hello There
 >>>
 ```
 
-## Using <span style="color:#f6fc2d">in</span> as a Locical Operator
+## Using <span style="color:#f6fc2d">in</span> as a Logical Operator
 
 - The <span style="color:#f6fc2d">in</span> keyword can also be used to check if one<br>
   string is "in" another string
@@ -254,13 +254,13 @@ else:
 
 ## <span style="color:#f6fc2d">String Library</span>
 
-- Pytho has a number of string <span style="color:#ae1fd1">functions</span> which <br>
+- Python has a number of string <span style="color:#ae1fd1">functions</span> which <br>
   are in the <span style="color:#ae1fd1">string library</span>y
 - These <span style="color:#ae1fd1">functions</span> are already <span style="color:#ae1fd1">built into</span> every <br>
   string - we invoke them by appending the function<br>
   to the string variable
 - These <span style="color:#ae1fd1">functions</span> do not modify the original string<br>
-  insted they return a new string that has beed altered
+  instead they return a new string that has beed altered
 
 ```python
 >>> greet = "Hello Bob"
@@ -350,8 +350,8 @@ Hellx Bxb
 ### <span style="color:#f6fc2d">Prefixes</span>
 
 ```python
->>> line = "Plese have a nice day"
->>> line.startswith("Plese")
+>>> line = "Please have a nice day"
+>>> line.startswith("Please")
 True
 >>> line.startswith("p")
 False

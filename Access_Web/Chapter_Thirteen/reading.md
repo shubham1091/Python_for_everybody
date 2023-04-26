@@ -96,7 +96,7 @@ text elements. We indent only to be readable
 - <span style="color: #94ed1f">Tags</span> indicate the beginning and ending of elements
 - <span style="color:#ae1fd1">Attributes</span> - Keyword/value pairs on the opening tag of XML
 - <span style="color:#ed971f">Serialize/ De-Serialize</span> - Convert data in one program into a common<br>
-  fromat that cna be stored and/or transmitted between systems in a <br>
+  format that cna be stored and/or transmitted between systems in a <br>
   programming language-independent manner
 
 ## <span style="color:#f6fc2d">XML as a Tree</span>
@@ -152,9 +152,9 @@ flowchart TD
 - Description of the <span style="color:#f6fc2d">legal format</span> of an XML document
 - Expressed in terms of constraints on the structure and context of documents
 - Often used to specify a "<span style="color:#f6fc2d">contract</span>" between systems - "My system will<br>
-  only accept XML that conforms to this particular Schems."
+  only accept XML that conforms to this particular Schemas."
 - If a particular piece of XML meets the specification of the Schema - it <br>
-  is said to "<span style="color:#f6fc2d">validata</span>"
+  is said to "<span style="color:#f6fc2d">validate</span>"
 
 ```xml
 <!-- XML Document -->
@@ -195,7 +195,7 @@ flowchart TD
 - Douglas Crockford - "Discovered" JSON
 - Object literal notation in JavaScript
 
-# <span style="color:#f6fc2d">Service Orinted Approach</span>
+# <span style="color:#f6fc2d">Service Oriented Approach</span>
 
 - Most non-trivial web applications use services
 - They use services from other applications

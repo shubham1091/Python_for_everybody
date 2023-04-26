@@ -15,7 +15,7 @@
 ### TCP Connections <span style="color:#f6fc2d">/ Sockets</span>
 
 "In computer networking, an Internet <span style="color:#f6fc2d">Socket</span> or network <span style="color:#f6fc2d">Socket</span> is <br>
-an endpointof a bidirectional <span style="color:#34ebd2">inter-process</span> communication flow <br>
+an endpoint of a bidirectional <span style="color:#34ebd2">inter-process</span> communication flow <br>
 across an <span style="color:#b5473f">Internet</span> Protocol-based computer network, such as the <span style="color:#b5473f">Internet</span>"
 
 ```mermaid
@@ -77,7 +77,7 @@ mysock.connect(('data.pr43.org',80))
 
 ## <span style="color:#f6fc2d">HTTP - Hypertext Transfer Protocol</span>
 
-- The domainant Application Layer Protocol on the Internet
+- The dominate Application Layer Protocol on the Internet
 - Invented for the Web - to REtrieve HTML, Images, Documents, etc
 - Extended to be data in addition to documents - RSS, Web Services, <br>
   etc.. Basic Concept - Make a Connection - Request a document- <br>
@@ -108,7 +108,7 @@ and displays the document to the user.
   are developed by an organization
 - Internet Engineering Task Force (IETF)
 - WWW.ietf.org
-- Standards are colled "RFCs" - "Request for Comments"
+- Standards are called "RFCs" - "Request for Comments"
 
 ## <span style="color:#94ed1f">Making an HTTP request</span>
 
@@ -162,8 +162,8 @@ style Your_program fill:#4e4d4f,stroke:#333,stroke-width:4px
 
 # <span style="color:#f6fc2d">If You Want to Learn More</span>
 
-This chapter covers networking at a very high leve. If you want to learn more, there is bothe free book and a Coursera<br>
-course that I would recomend:
+This chapter covers networking at a very high level. If you want to learn more, there is both free book and a Coursera<br>
+course that I would recommend:
 
 - <a href="https://www.net-intro.com/">Introduction to Networking</a> (free textbook)
 - <a href="https://www.coursera.org/learn/internet-history"> Internet History, Technology, and Security</a> (Coursera Course)
@@ -178,8 +178,8 @@ exceedingly simple.
 
 - Each character is represented by a number between 0 and 256<br>
   stored in 8 bits of memory
-- We refer to "8 bits of meemory" as a <span style="color:#94ed1f">"byte"</span> of memory - (i.e. my disk<br>
-  drive contains 3 Tera<span style="color:#94ed1f">bytes</span> of memory)
+- We refer to "8 bits of memory" as a <span style="color:#94ed1f">"byte"</span> of memory - (i.e. my disk<br>
+  drive contains 3 Terra<span style="color:#94ed1f">bytes</span> of memory)
 - The <span style="color:#ae1fd1">ord()</span> function tells us the numeric value of a simple ASCII character
 
 In the 1960s and 1970s, we just assumed that one byte was one character
@@ -225,14 +225,14 @@ talk to a database we have to encode and decode data (usually to UTF-8)
 <class 'str'>
 >>> x = u'안녕'
 >>> type(x)
-<clss 'str'>
+<class 'str'>
 ```
 
 ## <span style="color:#f6fc2d">Python Strings to Bytes</span>
 
 - When we talk to an external resource like a network socket we sends bytes,<br>
   so we need to encode python 3 strings into a given character encoding
-- When we read data from an extrnal resource, we must decode it based on <br>
+- When we read data from an external resource, we must decode it based on <br>
   the character set so it is properly represented in python 3 as a string
 
 ```python
@@ -280,13 +280,13 @@ for line in fhand:
 
 - There is some controversy about web page scraping and some <br>
   sites are a bit snippy about it.
-- Republishing copyrighted informaion is not allowed
+- Republishing copyrighted information is not allowed
 - Violating terms of service is not allowed
 
 ### <span style="color:#f6fc2d">The Easy Way - Beautiful soup</span>
 
 - YOu could do string searches the hard way
-- Or use the free software library colled <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifullSoup</a>
+- Or use the free software library called <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifullSoup</a>
 
 ### <span style="color:#f6fc2d">Summary</span>
 - The TCP/IP gives us pipes/ sockets between applications

@@ -9,7 +9,7 @@ if x > 20:
 print("Finished")
 ```
 
-# Comparision Operators
+# Comparison Operators
 
 - <span style="color: #f6fc2d;">Boolean expressions</span> ask a question<br>
   and produce a Yes or No result which<br>
@@ -34,7 +34,7 @@ print("Finished")
 
 Atom automatically uses spaces for files with ".py" extension (nice!)
 
-- Most text editors can trun <span style="color:#ed971f ">tabs</span> into <span style="color:#94ed1f">spaces</span> - make sure to enable this feature
+- Most text editors can turn <span style="color:#ed971f ">tabs</span> into <span style="color:#94ed1f">spaces</span> - make sure to enable this feature
   - NotePad++: Settings -> Preferences -> Language Menu/<span style="color:#ed971f">Tab</span> Settings
   - TextWrangler: TextWrangler -> Preferences -> Editor Default
 - Python cares a **lot** about how far a line is indented. If you mix <span style="color:#ed971f">tabs</span> and
@@ -75,7 +75,7 @@ flowchart TD
 
 ## Two-way Decisions
 
-- Somtimes we want to do one thing if a<br>
+- Sometimes we want to do one thing if a<br>
   logical expression is true and something <br>
   else if the expression is false
 - It is like a fork in the road - we must choose<br>

@@ -2,10 +2,10 @@
 
 ## <span style="color:#f6fc2d">File Processing</span>
 
-A text file can be thought of as a swquence of lines
+A text file can be thought of as a sequence of lines
 
 <span style="color:#ae1fd1">From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008<br>
-Return-Pathc: &lt;Postmaster@collab.sakaiproject.org&gt;<br>
+Return-Path: &lt;Postmaster@collab.sakaiproject.org&gt;<br>
 Data: Sat, 5 Jan 2008 09:12:18 -0500<br>
 To: source@collab.sakaiproject.org<br>
 From: stephen.marquard@uct.ac.za<br>

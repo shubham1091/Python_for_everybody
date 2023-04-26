@@ -29,7 +29,7 @@ $ python
 
 #### <span style="color:#ae1fd1">Dictionary</span>
 
-- A "bag" of values, each with its own lable
+- A "bag" of values, each with its own label
 
 ## <span style="color:#f6fc2d">Dictionaries</span>
 
@@ -61,7 +61,7 @@ $ python
 
 ## <span style="color:#f6fc2d">Comparing Lists and dictionaries</span>
 
-<span style="color:#ae1fd1">Dictionary</span> are like <span style="color: #94ed1f">lists</span> except that they use <span style="color:#ed971f">keys</span> insted of numbers to look up <span style="color:#f6fc2d">values</span>
+<span style="color:#ae1fd1">Dictionary</span> are like <span style="color: #94ed1f">lists</span> except that they use <span style="color:#ed971f">keys</span> instead of numbers to look up <span style="color:#f6fc2d">values</span>
 
 <table>
 <tr>
@@ -136,8 +136,8 @@ False
 ## <span style="color:#f6fc2d">When We See a New Name</span>
 
 When we encounter a new name, we need to add a new entry in the <br>
-<span style="color:#ae1fd1">dictionary</span> and if this the second or leter time we have seen the <span style="color: #94ed1f">name</span>,<br>
-we simply add one to the counter in the <span style="color:#ae1fd1">dictionary</span> undder that <span style="color: #94ed1f">name</span>
+<span style="color:#ae1fd1">dictionary</span> and if this the second or later time we have seen the <span style="color: #94ed1f">name</span>,<br>
+we simply add one to the counter in the <span style="color:#ae1fd1">dictionary</span> under that <span style="color: #94ed1f">name</span>
 
 <table>
 <tr>
@@ -174,7 +174,7 @@ print(counts)
 
 The pattern of checking to see if a <span style="color:#34ebd2">key</span> is already in a dictionary and<br>
 assuming a default value if the <span style="color:#34ebd2">key</span> is not there is so common that there<br>
-is a <span style="color:#ae1fd1">method</span> colled <span style="color:#ae1fd1">get()</span> that does this for us<br>
+is a <span style="color:#ae1fd1">method</span> called <span style="color:#ae1fd1">get()</span> that does this for us<br>
 
 <span style="color:#ed971f">Default value if key does not exist (and no Traceback).</span>
 

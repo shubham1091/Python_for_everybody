@@ -1,10 +1,8 @@
 # Constants
 
-- Fixed values such as numbers, letters, and strings, are colled<br>
+- Fixed values such as numbers, letters, and strings, are called<br>
   "constants" because their values does not change
-
 - Numeric constants are as you expect
-
 - String constants use single quotes ( ' )<br>
   or double quotes ( " )
 
@@ -36,7 +34,7 @@ Note: These are case-sensitive keywords and cannot be used as variable names or 
 # Variables
 
 - A variable is a named place in the memory where a programmer can store<br>
-  data and leter retrieve the data using the variable "name"
+  data and letter retrieve the data using the variable "name"
 
 - Programmers get to choose the name of the variables
 
@@ -118,7 +116,7 @@ x = 1 + 2 * 3 - 4 / 5 ** 6
   an integer number and a string
 - For example "+" means "addition" if<br>
   something is a number and <br>
-  "concatenate" if somethingis a string
+  "concatenate" if somethings a string
   > concatenate = put together
 
 ## Several Types of Numbers
@@ -167,7 +165,7 @@ print("welcome", nam)
 
 ```python
 # Convert elevator floors
-inp = input("Europe flore? ")
+inp = input("Europe floor? ")
 usf = int(inp) + 1
 print("US floor", usf)
 ```
@@ -176,6 +174,6 @@ print("US floor", usf)
 
 - Anything after a # is ignored by python
 - Why comment?
-  - Describe what is going to happen in a swquence of code
+  - Describe what is going to happen in a sequence of code
   - Document who wrote the code or other ancillary information
   - Turn of a line of code - perhaps temporarily

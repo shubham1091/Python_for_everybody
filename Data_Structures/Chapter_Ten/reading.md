@@ -81,7 +81,7 @@ not support item Assignment
 - Since Python does not have to build tuple structures to be<br>
   modifiable, they are simpler and more efficient in terms of <br>
   memory use and performance than list
-- So in our program when we are makin "temporary variables"<br>
+- So in our program when we are making "temporary variables"<br>
   we prefer tuples over lists
 
 ## <span style="color:#f6fc2d">Tuples and Assignment</span>
@@ -120,7 +120,7 @@ dict_items([('csev', 2), ('cwen',4)])
 
 The comparison operators work with tuples and other <br>
 sequences. If the first item is equal, Python goes on to the next<br>
-element, and so on, untile it finds elements that differ.
+element, and so on, until it finds elements that differ.
 
 ## <span style="color:#f6fc2d">Sorting List of Tuples</span>
 
@@ -139,7 +139,7 @@ dict_items([('a',10),('c',22),('b',1])
 
 ## <span style="color:#f6fc2d">Sorting by Values Instead of Key</span>
 
-- If we could construct alist of tuples of the from (value, key) <br>
+- If we could construct a list of tuples of the from (value, key) <br>
   we could sort by value
 - We do this with a for loop that creates a list of tuples
 

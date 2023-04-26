@@ -172,7 +172,7 @@ flowchart TD
 
 # <span style="color:#f6fc2d">Finishing an Iteration with Continue</span>
 
-The <span style="color:#f6fc2d">Continue</span> statement endws the current iteration and jumps to the<br>
+The <span style="color:#f6fc2d">Continue</span> statement ends the current iteration and jumps to the<br>
 top of the loop starts the next iteration
 
 <table>
@@ -232,7 +232,7 @@ flowchart TD
 # <span style="color:#f6fc2d">A Simple Definite Loop</span>
 
 Definite loops (for loops) have explicit <span style="color: #94ed1f">Iteration variables</span> that change each time<br>
-through a loop. These <span style="color: #94ed1f">Iteration variables</span> move throug the sequence of set.
+through a loop. These <span style="color: #94ed1f">Iteration variables</span> move through the sequence of set.
 
 <table>
 <tr>
@@ -288,7 +288,7 @@ flowchart TD
 ### <span style="color:#f6fc2d">Finding the Largest Value</span>
 
 We make a variable that contains the largest value we have seen so far. If the current<br>
-<span style="color: #ae1fd1">number we aere looking at</span> is large, it is the new <span style="color: #94ed1f">largest value we have seen so far.</span>
+<span style="color: #ae1fd1">number we are looking at</span> is large, it is the new <span style="color: #94ed1f">largest value we have seen so far.</span>
 
 <table>
 <tr>

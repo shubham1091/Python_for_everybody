@@ -257,7 +257,7 @@ True
 ## <span style="color:#f6fc2d">Lists are in Order</span>
 
 - A <span style="color:#ed971f">list</span> can hold many items and keeps those items in the <br>
-  order until we do somthing to change the order
+  order until we do something to change the order
 - A <span style="color:#ed971f">list</span> can be <span style="color:#ae1fd1">sorted</span> (i.e., change its order)
 - The <span style="color:#ae1fd1">sort</span> method (unlike in strings) means "<span style="color:#ae1fd1">sort yourself</span>"
 
