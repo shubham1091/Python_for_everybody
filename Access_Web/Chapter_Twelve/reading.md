@@ -161,6 +161,7 @@ style Your_program fill:#4e4d4f,stroke:#333,stroke-width:4px
 ```
 
 # <span style="color:#f6fc2d">If You Want to Learn More</span>
+
 This chapter covers networking at a very high leve. If you want to learn more, there is bothe free book and a Coursera<br>
 course that I would recomend:
 
@@ -170,3 +171,126 @@ course that I would recomend:
 Neither of these is essential for this course or the python specialization as we quickly move from how the network<br>
 works to how to write python code using the urllib library - which makes the very complex internet protocols <br>
 exceedingly simple.
+
+# <span style="color:#f6fc2d">Unicode Characters and Strings</span>
+
+## <span style="color:#f6fc2d">Representing Simple Strings</span>
+
+- Each character is represented by a number between 0 and 256<br>
+  stored in 8 bits of memory
+- We refer to "8 bits of meemory" as a <span style="color:#94ed1f">"byte"</span> of memory - (i.e. my disk<br>
+  drive contains 3 Tera<span style="color:#94ed1f">bytes</span> of memory)
+- The <span style="color:#ae1fd1">ord()</span> function tells us the numeric value of a simple ASCII character
+
+In the 1960s and 1970s, we just assumed that one byte was one character
+
+```python
+>>> print(ord('H'))
+72
+>>> print(ord('e'))
+101
+>>> print(ord('\n'))
+10
+```
+
+## <span style="color:#ed971f">Multi-Byte Character</span>
+
+To represent the wide range of characters computers must handle we represent<br>
+characters with more than one byte
+
+- UTF-16 - Fixed length - Two bytes
+- UTF-32 - Fixed length - Four bytes
+- UTF-8 - 1-4 bytes
+  - Upwards compatible with ASCII
+  - Automatic detection between ASCII and UTF-8
+  - <span style="color:#94ed1f">UTF-8 is recommended practice for encoding<br>
+    data to be exchanged between systems</span>
+
+![alt txt](https://www.researchgate.net/publication/343487500/figure/fig1/AS:921701533638656@1596762178192/Webpage-encoding-measurements-https-enwikipediaorg-wiki-UTF-8.jpg)
+
+## <span style="color:#f6fc2d">Python 3 and Unicode</span>
+
+In python 3, all strings internally are UNICODE
+
+Working with string variables in python programs and reading data from <br>
+usually "just works" when we talk to a network resource using sockets or <br>
+talk to a database we have to encode and decode data (usually to UTF-8)
+
+```python
+>>> x = b'abc'
+>>> type(x)
+<class 'bytes'>
+>>> x = '안녕'
+>>> type(x)
+<class 'str'>
+>>> x = u'안녕'
+>>> type(x)
+<clss 'str'>
+```
+
+## <span style="color:#f6fc2d">Python Strings to Bytes</span>
+
+- When we talk to an external resource like a network socket we sends bytes,<br>
+  so we need to encode python 3 strings into a given character encoding
+- When we read data from an extrnal resource, we must decode it based on <br>
+  the character set so it is properly represented in python 3 as a string
+
+```python
+while True:
+  data = sysock.recv(512)
+  if(len(data)<1):
+    break
+  mystring = data.decode()
+  print(mystring)
+```
+
+# <span style="color:#f6fc2d">Retrieving web pages</span>
+
+## <span style="color:#f6fc2d">Using urllib in python</span>
+
+Since HTTP is so common, we have a library that does all the socket<br>
+work for us and makes web pages look like a file
+
+```python
+import urllib.request, urllib.parse, urllib.error
+
+fhand = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
+for line in fhand:
+  print(line.decode().strip())
+```
+
+# <span style="color:#f6fc2d">Parsing web pages</span>
+
+## <span style="color:#f6fc2d">What is web scraping?</span>
+
+- When a program or script pretends to be a browser and retrieves<br>
+  web pages, looks at those web pages, extracts information, and<br>
+  then looks at more web pages
+- Search engines scrape web pages - we call this "spidering the web"<br>
+  or "web crawling"
+
+### <span style="color:#f6fc2d">Why Scrape?</span>
+
+- Pull data - particularly social data - who links to who?
+- Get your own data back out of some system that has no "export capability"
+- Monitor a site for new information
+- Spider the web to make a database for search engine
+
+### <span style="color:#f6fc2d">Scraping web pages</span>
+
+- There is some controversy about web page scraping and some <br>
+  sites are a bit snippy about it.
+- Republishing copyrighted informaion is not allowed
+- Violating terms of service is not allowed
+
+### <span style="color:#f6fc2d">The Easy Way - Beautiful soup</span>
+
+- YOu could do string searches the hard way
+- Or use the free software library colled <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifullSoup</a>
+
+### <span style="color:#f6fc2d">Summary</span>
+- The TCP/IP gives us pipes/ sockets between applications
+- We designed application protocols to make use of these pipes
+- HyperText Transfer protocol (HTTP) is a simple yet powerful protocol
+- Python has good support for sockets, HTTP , and HTML parsing
+
