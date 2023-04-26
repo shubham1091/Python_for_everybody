@@ -189,3 +189,24 @@ flowchart TD
 - We will focus on the World Wide Web Consortium (W3C) version
 - It is often called "W3C Schema" because "Schema" is considered generic
 - More commonly it is called XSD because the file name end in .xsd
+
+# <span style="color:#f6fc2d">JavaScript Object Notation (JSON)</span>
+
+- Douglas Crockford - "Discovered" JSON
+- Object literal notation in JavaScript
+
+# <span style="color:#f6fc2d">Service Orinted Approach</span>
+
+- Most non-trivial web applications use services
+- They use services from other applications
+  - Credit card Charge
+  - Hotel Reservation System
+- Services publish the "rules" applications must<br>
+  follow to make use of the service (<span style="color:#ed971f">API</span>)
+
+## <span style="color:#f6fc2d">Multiple Systems</span>
+
+- Initially - two systems cooperate and split the problem
+- As the data/service become useful - multiple applications<br>
+  to use the information / application
+
