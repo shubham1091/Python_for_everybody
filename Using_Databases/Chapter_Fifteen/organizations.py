@@ -29,7 +29,7 @@ results of operations that have not yet been committed.
 """
 import sqlite3
 
-conn = sqlite3.connect('organizations.sqlite')
+conn = sqlite3.connect('../sql/organizations.sqlite')
 cur = conn.cursor()
 
 cur.execute('DROP TABLE IF EXISTS Counts')
